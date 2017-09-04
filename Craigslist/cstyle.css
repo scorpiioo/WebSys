@@ -1,0 +1,33 @@
+#cont{
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	font-weight:100;
+	color:#fff;
+} 
+ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#8c5a5f;
+    position: fixed;
+    top: 150px;
+    width: 100%;
+}
+
+li{
+	float:right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+}
+
+li a:hover:not(.active) {
+    background-color: #a1a3a4;
+}
